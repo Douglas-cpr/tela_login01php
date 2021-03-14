@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+
+    background: #f1f1f163;
+}
+
+h1 {
+    color: rgb(92, 2, 165);
+}
+
+h2 {
+    color: rgba(12, 116, 17, 0.876);
+}
+
+.container {
+    width: 100vw;
+    height: 90vh;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    padding-bottom: 2rem;
+}
+
+.header > img {
+    width: 150px;
+    height: 150px;
+}
+
+.box {
+    width: 20vw;
+    height: 43vh;
+
+    background: white;
+
+    text-align: center;
+    border-radius: .35rem;
+
+    padding: 1rem;
+
+    box-shadow: 1px 1px 7px .5px rgba(211, 211, 211, 0.726);
+}
+
+.alert {
+    color: rgba(255, 0, 0, 0.774);
+}
+
+.control {
+    padding: .5rem 0;
+}
+
+.control input {
+    width: 220px;
+    height: 30px;
+
+    border-radius: .35rem;
+    border: none;
+
+    background: #f0f0f0;
+
+    text-align: center;
+}
+
+.sr-only {
+    position: absolute; 
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.btn.signin {
+    width: 80px;
+    height: 30px;
+
+    border-radius: 99px;
+    border: none;   
+    cursor: pointer;
+
+    margin-top: 1rem;
+
+    background: #6b63ff88;
+    color: white;
+}
+
+.btn.signin:hover {
+    background: #6b63ff;
+}
+
+@media (max-width: 1551px) {
+    .box {
+        width: auto;
+        height: auto;
+        padding: 2rem;
+    }
+}
+
